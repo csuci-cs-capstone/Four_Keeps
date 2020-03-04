@@ -1,0 +1,131 @@
+{
+    "id": "5e930408-0d6f-45c6-ba24-2662b11bd945",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "o_fireball",
+    "eventList": [
+        {
+            "id": "09fe363c-9405-4cc8-aa6e-9bf103eaf287",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5e930408-0d6f-45c6-ba24-2662b11bd945"
+        },
+        {
+            "id": "6ae8361a-e1b1-4f53-953d-94c3535a84b4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "e9e98a71-c73b-48ea-85e7-cf86bafb5c2a",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "5e930408-0d6f-45c6-ba24-2662b11bd945"
+        },
+        {
+            "id": "faf5471e-ef62-4e8e-9efd-c0eddef80ce9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "5e930408-0d6f-45c6-ba24-2662b11bd945"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        
+    ],
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "40377ea0-7dc8-40cf-98a5-50ee6f20dc03",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "4",
+            "varName": "velocity",
+            "varType": 1
+        },
+        {
+            "id": "93f9a7ed-f145-455c-811a-73b996b33c42",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "targetX",
+            "varType": 1
+        },
+        {
+            "id": "51731442-3ebb-475d-b354-84f55032de7a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "targetY",
+            "varType": 1
+        },
+        {
+            "id": "10f20a03-85a6-4718-9cc2-864b70f68816",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "source",
+            "varType": 5
+        },
+        {
+            "id": "eabda3dc-a7cc-491e-a1d2-eac0b7352ac6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "fired",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "a8bd1a56-891e-496c-9ee8-384df51e05b5",
+    "visible": true
+}
