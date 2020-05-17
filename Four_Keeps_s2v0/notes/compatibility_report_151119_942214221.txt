@@ -1,5 +1,0 @@
-Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
-Converted description /// @description  Variable List
-
-Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
-Converted description /// @description  Movement
